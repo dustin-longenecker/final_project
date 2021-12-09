@@ -14,18 +14,18 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 You must inspect your traffic capture to answer the following questions in your Network Report:
 1. What is the domain name of the users' custom site? 
   Frank-n-Ted-DC.frank-n-ted.com
-  ![./images/frankandted.png]
+  ![frankandted](images/frankandted.png)
 2. What is the IP address of the Domain Controller (DC) of the AD network? 
   10.6.12.12
 3. What is the name of the malware downloaded to the 10.6.12.203 machine? 
   june11.dll
-  ![./images/june11.png]
+  ![june11](images/june11.png)
    - Once you have found the file, export it to your Kali machine's desktop.
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
-  ![./images/june11_file_upload.png]
+  ![june11_file_upload](images/june11_file_upload.png)
 5. What kind of malware is this classified as?
   Trojan
-  ![./images/june11_trojan.png]
+  ![june11_trojan](images/june11_trojan.png)
 ---
 
 ## Vulnerable Windows Machine
@@ -44,7 +44,7 @@ Inspect your traffic to answer the following questions in your network report:
 2. What is the username of the Windows user whose computer is infected? 
   matthijs.devries
 3. What are the IP addresses used in the actual infection traffic? 172.16.4.205 | 185.243.115.84 | 166.62.11.64
-  ![./images/conversation_traffic.png]
+  ![conversation_traffic](images/conversation_traffic.png)
 4. As a bonus, retrieve the desktop background of the Windows host.
 
 ---
