@@ -71,7 +71,7 @@ Alert 3 is implemented as follows:
     -Low Reliability
       -CPU Usage can fluctuage at any given time even when not faced with an attack. Though, monitoring fluctuation in CPU usage could be a benefit to see when and why high CPU usage is occuring.
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
-
+![watcher](images/watcher.png)
 ### Suggestions for Going Further (Optional)
 _TODO_: Thresholds need to be implemented via Group Policy. 
   -HTTP Request Monitor

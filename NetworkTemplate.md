@@ -40,6 +40,7 @@ Inspect your traffic to answer the following questions in your network report:
     - Host name: ROTTERDAM-PC
     - IP address: 172.16.4.205
     - MAC address: 00:59:07:b0:63:a4
+    ![rotterdam](images/rotterdam.png)
 
 2. What is the username of the Windows user whose computer is infected? 
   matthijs.devries
@@ -64,7 +65,9 @@ Your task is to isolate torrent traffic and answer the following questions in yo
     - MAC address: 00:16:17:18:66:c8
     - Windows username: elmer.blanco
     - OS version: BLANCO-DESKTOP
+    ![blanco](images/blanco.png)
 
 2. Which torrent file did the user download?
   Betty_Boop_Rythm_on_the_Reservation.avi.torrent
   ip.addr==10.0.0.201 and http.request.method==GET
+  ![torrent_file](images/torrent_file.png)
